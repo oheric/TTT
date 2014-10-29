@@ -1,0 +1,98 @@
+html{
+	background: url(http://i.imgur.com/wiexvw7.jpg) center center no-repeat;
+	/*background-repeat: no-repeat;*/
+	background-size: cover;
+	/*background-attachment: fixed;*/
+	min-height: 100%;
+
+	/*min-height: 100%;
+	min-width: 1024px;
+	width: 100%;
+	height: auto;
+	position: fixed;
+	top: 0;
+	left: 0; */
+} 
+
+.box{
+	height: 500px;
+	width: 500px;
+	margin: auto;
+	border: black;
+	
+}
+
+.cell{
+	height:  150px;
+	width: 150px;
+	border: 5px outset orange;
+	display: inline-block; 
+	float: left;
+	border-radius: 10px;
+	margin: 3px;
+	background: url(http://i.imgur.com/ElTyrgs.jpg); 
+	box-shadow: 0px 2px 2px 2px gray;
+ 
+}
+
+.header {
+	background: url(http://i.imgur.com/d9n8NnI.png) center center no-repeat;
+	height: 150px;
+	width: 700px;
+	padding: none;
+	margin: auto;
+	
+
+}
+
+.xclass {
+	background: url(http://i.imgur.com/cF3AUu3.png) center center no-repeat;
+	background-size: contain;
+
+}
+
+.oclass {
+	background: url(http://i.imgur.com/zDMD8n1.png) center center no-repeat;
+	background-size: contain;
+}
+
+.moveCounter{
+	font-family: 'Schoolbell', cursive;
+	text-align: center;
+	font-size: 40px;
+	color: red;
+	height: 70px;
+}
+
+.score1{
+	font-family:'Schoolbell', cursive;
+	font-size: 30px;
+	text-align: center;
+	float: left;
+	width: 200px;
+
+}
+
+.score2{
+	font-family:'Schoolbell', cursive;
+	font-size: 30px;
+	text-align: center;
+	float: right;
+	width: 200px;
+	
+}
+
+
+.but{
+	color: white;
+	border: 5px outset brown;
+	font-size: 46px;
+	font-family: 'Schoolbell', cursive;
+	border-radius: 5px;
+	height: 100px;
+	width: 493px;
+	text-align: center;
+	margin-top: 5px;
+	background-color: red;
+	
+}
